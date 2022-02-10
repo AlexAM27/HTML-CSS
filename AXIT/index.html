@@ -6,24 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./style/style.css">
     <title>AXIT</title>
 </head>
 
 <body>
     <header class="header">
-        <img src="./img/Logo.png" alt="Compaby logo" class="company-logo">
-        <nav class="header-nav">
-            <a href="#" class="nav-btn">Features</a>
-            <a href="#" class="nav-btn">About</a>
-            <a href="#" class="nav-btn">Pricing</a>
-            <a href="#" class="nav-btn">Reviews</a>
-            <a href="#" class="nav-btn">Contact</a>
-        </nav>
+        <div class="container header--content">
+            <img src="./img/Logo.png" alt="Company logo" class="company-logo">
+            <nav class="header-nav">
+                <a href="#" class="nav-btn">Features</a>
+                <a href="#" class="nav-btn">About</a>
+                <a href="#" class="nav-btn">Pricing</a>
+                <a href="#" class="nav-btn">Reviews</a>
+                <a href="#" class="nav-btn">Contact</a>
+            </nav>    
+        </div>
     </header>
     <main>
-        
+        <section class="first-section">
+            <div class="first-section--content container grid grid-template--2-cols">
+                <div class="first-section--description">
+                    <img src="./img/Logo.png" alt="Company logo large" class="company-logo--large">
+                    <h1 class="primary-heading">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                    <hr>
+                    <p class="first-section--description--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                        accumsan et viverra justo commodo.
+                    </p>
+                    <button class="btn download-btn">Download</button>
+                </div>
+                <div class="sign-up">
+                    <p class="sign-up--heading">Try Your <span class="oranged-text">Free</span> Trial Today</p>
+                    <div class="input-area">
+                        <input type="text" placeholder="Name" class="user-data--input">
+                        <input type="email" placeholder="Email" class="user-data--input">
+                        <input type="password" placeholder="Password" class="user-data--input">
+                    </div>
+                    <button class="sign-up-btn">Get Stated</button>
+                </div>
+            </div>
+            <div class="first-section--footer"></div>
+        </section>
     </main>
 </body>
 

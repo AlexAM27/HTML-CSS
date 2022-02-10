@@ -6,6 +6,9 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
 
+/* ------------------------ */
+/* GENERAL STYLES */
+/* ------------------------ */
 
 * {
     margin: 0;
@@ -13,31 +16,139 @@ FONT SIZE SYSTEM (px)
     box-sizing: border-box;
 }
 
-/* ------------------------ */
-/* GENERAL STYLES */
-/* ------------------------ */
+html {
+    font-size: 68.5%;
+}
 
 body {
-    font-size: 68.5%;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #555;
 }
 
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-template--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* ------------------------ */
+/* HEADER */
+/* ------------------------ */
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2.4rem 12.8rem;
     background-color: #000;
 }
 
+.header--content {
+    padding: 2.4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav-btn {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-decoration: none;
     color: #fff;
-    margin-right: 0.8rem;
+    margin-right: 4.6rem;
 }
+
+.nav-btn:last-child {
+    margin-right: 0;
+}
+
+
+/* **************************** */
+/*        SECTION 1             */
+/* **************************** */
+
+.first-section {
+    background-color: aquamarine;
+    padding: 6.4rem 0;
+}
+
+.company-logo--large {
+    max-width: 175px;
+    height: 60px;
+    
+}
+
+.primary-heading {
+    color: #fff;
+    font-size: 3.4rem;
+}
+
+hr {
+    border: 1px solid #fff;
+    max-width: 7.4rem;
+}
+
+.first-section--description--text {
+    font-size: 1.6rem;
+    margin-bottom: 4.4rem;
+}
+
+.company-logo--large,
+.primary-heading,
+hr {
+    margin-bottom: 3.2rem;
+}
+
+.download-btn {
+    width: 13.5rem;
+    height: 4.2rem;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #555;
+}
+
+.sign-up {
+    max-width: 36rem;
+}
+
+.user-data--input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #555;
+}
+
+.user-data--input::placeholder {
+    padding-left: 15px;
+}
+
+.sign-up--heading {
+    background-color: #999;
+    color: #333;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.oranged-text {
+    color: #ffa500;
+}
+
+.input-area {
+    padding: 3rem 5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+
+
+
 
 
 
