@@ -38,6 +38,11 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
+input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+
 /* ************** */
 /* HEADER SECTION */
 /* ************** */
@@ -75,6 +80,7 @@ body {
 .grid--2-cols-3-to-2 {
     grid-template-columns: 3fr 2fr;
     gap: 21.6rem;
+    align-items: center;
 }
 
 .hero-section {
@@ -137,7 +143,123 @@ hr {
     display: block;
      width: 70%;
      margin: 0 auto;
+     border: none;
+     border-bottom: 1px solid #d8d8d8;
+     padding: 4.4rem 0 1.0rem 1.2rem;
 }
+
+.sign-up-btn {
+    margin-top: 4.4rem;
+    width: 100%;
+    border: none;
+    padding: 2.0rem 0;
+    font-size: 1.4rem;
+    background-color: #fd7e14;
+    color: #ffffff;
+}
+
+/* ************** */
+/* SOCIAL MEDIA SECTION */
+/* ************** */
+
+.social-media-section {
+    background-color: #ffffff;
+}
+
+.social-media-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.2rem 0;
+}
+
+.social-media-header {
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.social-media-text {
+    font-size: 1.4rem;
+}
+
+.social-media-img-list {
+    list-style: none;
+    display: flex;
+    gap: 4.8rem;
+}
+
+.social-media-img {
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #bdbdbd;
+}
+
+/* ************** */
+/* TABS SECTION */
+/* ************** */
+
+.tabs-section {
+    background-color: #d8d8d8;
+}
+
+.tabs-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9.8rem;
+    padding: 8.0rem 0;
+}
+
+.tabs-list {
+    list-style: none;
+}
+
+.tabs-list-item {
+    height: 9.6rem;
+    width: 9.6rem;
+    background-color: #000;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.tabs-list-item:nth-child(1) {
+    background-color: #fd7e14;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tabs-list-item:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tab-text {
+    display: block;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tabs-description-header {
+    font-size: 2.0rem;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+
+.tabs-description-text {
+    font-size: 1.4rem;
+    margin-bottom: 3.2rem;
+}
+
+
+
+
 
 
 
